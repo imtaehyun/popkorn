@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* Button Common */
+.button,
+.button *{ position:relative; margin:0; padding:0; display:inline-block; text-decoration:none !important; border:0; font-size:12px; white-space:nowrap; background:url(button.gif) no-repeat; vertical-align:top; overflow:visible; color:#333;}
+.button { margin-right:4px;}
+.button *{ left:4px; cursor:pointer; _cursor:hand;}
+.button.medium, .button.medium *{ height:24px; line-height:21px;}/* 맑은고딕을 사용할 경우 21px, 돋움을 사용할 경우 24px 사용 */
+.button.medium { background-position:left 0;}
+.button.medium *{ padding:0 10px 0 6px; font-size:12px; background-position:right top;}
+/* Button Hover */
+.button *:hover,
+.button *:active,
+.button *:focus{ color:#06a;}
+/* Button Icon Variation */
+.button.icon *{ padding-left:20px;}
+.button.icon span{ width:20px; margin-right:-20px; padding:0 !important;}
+.button.medium .check{ background-position:4px -150px;}
+.button.medium .add{ background-position:-16px -150px;}
+.button.medium .delete{ background-position:-34px -150px;}
+.button.medium .calendar{ background-position:-56px -150px;}
+.button.medium .refresh{ background-position:-76px -150px;}
+.button.medium .download{ background-position:-96px -151px;}
+
+/* Common Class */
+.iText{ border:1px solid #b7b7b7; border-right-color:#e1e1e1; border-bottom-color:#e1e1e1; background:transparent;}
+.iCheck, .iRadio{ width:13px; height:13px; margin:0; padding:0; vertical-align:middle;}
+.hide{ position:absolute; left:0; top:0; width:1px; height:1px; font-size:0; line-height:0; visibility:hidden;}
+
+/* Popup Layer */
+.subdiv_1 {display:none; position:fixed; _position:absolute; top:0; left:0; width:100%; height:100%; z-index:10000;}
+.subdiv_1 .bg_1 {position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:.8; filter:alpha(opacity=50);}
+.subdiv_2 {display:none; position:fixed; _position:absolute; top:0; left:0; width:100%; height:100%; z-index:10000;}
+.subdiv_2 .bg_2 {position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:.8; filter:alpha(opacity=50);}
+.subdiv_3 {display:none; position:fixed; _position:absolute; top:0; left:0; width:100%; height:100%; z-index:10000;}
+.subdiv_3 .bg_3 {position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:.8; filter:alpha(opacity=50);}
+.subdiv_4 {display:none; position:fixed; _position:absolute; top:0; left:0; width:100%; height:100%; z-index:10000;}
+.subdiv_4 .bg_4 {position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:.8; filter:alpha(opacity=50);}
+.subdiv_5 {display:none; position:fixed; _position:absolute; top:0; left:0; width:100%; height:100%; z-index:10000;}
+.subdiv_5 .bg_5 {position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:.8; filter:alpha(opacity=50);}
+.subdiv_6 {display:none; position:fixed; _position:absolute; top:0; left:0; width:100%; height:100%; z-index:10000;}
+.subdiv_6 .bg_6 {position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:.8; filter:alpha(opacity=50);}
+.subdiv_7 {display:none; position:fixed; _position:absolute; top:0; left:0; width:100%; height:100%; z-index:10000;}
+.subdiv_7 .bg_7 {position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:.8; filter:alpha(opacity=50);}
+.subdiv_8 {display:none; position:fixed; _position:absolute; top:0; left:0; width:100%; height:100%; z-index:10000;}
+.subdiv_8 .bg_8 {position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:.8; filter:alpha(opacity=50);}
+.subdiv_9 {display:none; position:fixed; _position:absolute; top:0; left:0; width:100%; height:100%; z-index:10000;}
+.subdiv_9 .bg_9 {position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:.8; filter:alpha(opacity=50);}
+.subdiv_10 {display:none; position:fixed; _position:absolute; top:0; left:0; width:100%; height:100%; z-index:10000;}
+.subdiv_10 .bg_10 {position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:.8; filter:alpha(opacity=50);}
+.subdiv_11 {display:none; position:fixed; _position:absolute; top:0; left:0; width:100%; height:100%; z-index:10000;}
+.subdiv_11 .bg_11 {position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:.8; filter:alpha(opacity=50);}
+.subdiv_12 {display:none; position:fixed; _position:absolute; top:0; left:0; width:100%; height:100%; z-index:10000;}
+.subdiv_12 .bg_12 {position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:.8; filter:alpha(opacity=50);}
